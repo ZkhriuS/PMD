@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:backgroundTint="#FFFFFF"
+    android:foregroundTint="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="32dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        android:backgroundTintMode="add"
+        android:foregroundTint="#FFFFFF"
+        android:gravity="bottom|center|center_horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom|center">
+
+            <Button
+                android:id="@+id/button_nul"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="#FFFFFF"
+                android:foregroundTint="#FFFFFF"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#F47B2B"
+                android:textColorHighlight="#F47B2B"
+                android:textSize="34sp"
+                app:iconTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button_back"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="#FFFFFF"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#F47B2B"
+                android:textColorHighlight="#F47B2B"
+                android:textSize="34sp"
+                app:iconTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button_clear"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="#FFFFFF"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#F47B2B"
+                android:textColorHighlight="#F47B2B"
+                android:textSize="34sp"
+                app:iconTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button_div"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="#FFFFFF"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#F47B2B"
+                android:textColorHighlight="#F47B2B"
+                android:textSize="34sp"
+                app:iconTint="#FFFFFF" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/button14"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="#FFFFFF"
+                android:text="@string/btn_seven"
+                android:textAlignment="center"
+                android:textColor="#F47B2B"
+                android:textColorHighlight="#F47B2B"
+                android:textSize="34sp"
+                app:iconTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button27"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="#FFFFFF"
+                android:text="@string/btn_eight"
+                android:textAlignment="center"
+                android:textColor="#F47B2B"
+                android:textColorHighlight="#F47B2B"
+                android:textSize="34sp"
+                app:iconTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button28"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="#FFFFFF"
+                android:textAlignment="center"
+                android:textColor="#F47B2B"
+                android:textColorHighlight="#F47B2B"
+                android:textSize="34sp"
+                app:iconTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button29"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="#FFFFFF"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#F47B2B"
+                android:textColorHighlight="#F47B2B"
+                android:textSize="34sp"
+                app:iconTint="#FFFFFF" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom|center">
+
+            <Button
+                android:id="@+id/button10"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="#FFFFFF"
+                android:text="@string/btn_four"
+                android:textAlignment="center"
+                android:textColor="#F47B2B"
+                android:textColorHighlight="#F47B2B"
+                android:textSize="34sp"
+                app:iconTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button24"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="#FFFFFF"
+                android:text="@string/btn_five"
+                android:textAlignment="center"
+                android:textColor="#F47B2B"
+                android:textColorHighlight="#F47B2B"
+                android:textSize="34sp"
+                app:iconTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button25"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="#FFFFFF"
+                android:text="@string/btn_six"
+                android:textAlignment="center"
+                android:textColor="#F47B2B"
+                android:textColorHighlight="#F47B2B"
+                android:textSize="34sp"
+                app:iconTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button26"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="#FFFFFF"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#F47B2B"
+                android:textColorHighlight="#F47B2B"
+                android:textSize="34sp"
+                app:iconTint="#FFFFFF" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom|center">
+
+            <Button
+                android:id="@+id/button8"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@color/white"
+                android:text="@string/btn_one"
+                android:textAlignment="center"
+                android:textColor="#F47B2B"
+                android:textColorHighlight="#F47B2B"
+                android:textSize="34sp"
+                app:iconTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button21"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="#FFFFFF"
+                android:text="@string/btn_two"
+                android:textAlignment="center"
+                android:textColor="#F47B2B"
+                android:textColorHighlight="#F47B2B"
+                android:textSize="34sp"
+                app:iconTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button22"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="#FFFFFF"
+                android:text="@string/btn_three"
+                android:textAlignment="center"
+                android:textColor="#F47B2B"
+                android:textColorHighlight="#F47B2B"
+                android:textSize="34sp"
+                app:iconTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button23"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="#FFFFFF"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#F47B2B"
+                android:textColorHighlight="#F47B2B"
+                android:textSize="34sp"
+                app:iconTint="#FFFFFF" />
+
+        </TableRow>
+
+        <TableRow
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom|center">
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="#FFFFFF"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#F47B2B"
+                android:textColorHighlight="#F47B2B"
+                android:textSize="34sp"
+                app:iconTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button18"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="#FFFFFF"
+                android:text="@string/btn_nul"
+                android:textAlignment="center"
+                android:textColor="#F47B2B"
+                android:textColorHighlight="#F47B2B"
+                android:textSize="34sp"
+                app:iconTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button19"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="#65C8BAA6"
+                android:text="@string/btn_nul"
+                android:textAlignment="center"
+                android:textColor="#F47B2B"
+                android:textColorHighlight="#F47B2B"
+                android:textSize="34sp"
+                app:iconTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button20"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="#FFFFFF"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#F47B2B"
+                android:textColorHighlight="#F47B2B"
+                android:textSize="34sp"
+                app:iconTint="#FFFFFF" />
+
+        </TableRow>
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
