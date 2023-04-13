@@ -1,0 +1,3 @@
+com.cookos.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme
